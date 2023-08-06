@@ -19,6 +19,8 @@
 }
 
 .main-container {
+  border-left: 1px solid black; 
+
   display: flex;
   flex-direction: row;
   clear: both;
@@ -26,16 +28,16 @@
 }
 .left_sidebar {
   flex: 5;
-  background-color: rgb(36, 154, 228);
+  background-color: white;
+  color: black;
 }
 .info{
     text-align: justify;
     padding: 10px 20px;
-    color: rgb(213, 207, 207);
     line-height: 20px;
 }
 .right_sidebar {
-  border-left: 2px solid black;
+  /* border-left: 2px solid black; */
   flex: 1;
   background-color: rgb(48, 125, 173);
 }
@@ -50,14 +52,18 @@
 }
 
 .table_title{
+   background-color: blue;
     border: 1px solid black;
     border-bottom: none;
     font-size: 20px;
     padding: 10px 0px;
     font-size: bold;
     font-weight: 700;
+    color: white;
 }
-
+.table th{
+  background-color: rgb(75, 75, 210);
+}
 .table{
     margin-top: 40px;
     width: 60%;
